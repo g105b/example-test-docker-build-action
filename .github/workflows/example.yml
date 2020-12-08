@@ -12,5 +12,5 @@ jobs:
       - name: Test docker build action
         uses: g105b/test-docker-build-action@master
         with:
-          php_version: 8.0
+          php_version: "8.0"
           name: Cody the cat
